@@ -2,7 +2,7 @@
 
 % part 1: simulate small enzyme and small substrate (metabolic metabolic)
 
-KM0 = 130*602;
+KM0 = 130*602;  % unit: µM
 
 E_r = 2.4e-9;  % enzyme radius; metric unit
 s_r = 0.34e-9;  % substrate radius; metric unit
@@ -45,7 +45,7 @@ end
 
 % part 2: simulate large ribosome and large tRNA (ribosomal system)
 
-KM0 = 130*602;
+KM0 = 130*602;  % unit: µM
 
 E_r = 10e-9;  % enzyme radius; metric unit
 s_r = 2.4e-9;  % substrate radius; metric unit

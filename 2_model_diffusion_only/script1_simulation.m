@@ -1,12 +1,10 @@
 
 % part 1: simulate small enzyme and small substrate (metabolic metabolic)
 
-KM0 = 130*602;
+KM0 = 130*602;  % unit: µM
 
 E_r = 2.4e-9;  % enzyme radius; metric unit
 s_r = 0.34e-9;  % substrate radius; metric unit
-%E_r = 10e-9;
-%s_r = 2.4e-9;
 rho_vol = 1e-18;  % volume of a cell; metric unit
 
 ttheta = 2.3;
@@ -41,15 +39,13 @@ end
 rec_occ_ratioS_maxD = [rec_occ_ratioS_maxD;[arr_occupancy(imax_occ),arr_ratio_s(imax_ratioS),arr_KM(imax_occ,imax_ratioS),arr_complex(imax_occ,imax_ratioS),mmax]];
 dlmwrite(['intermediateData_NComplex_smallEnzyme_KM078260_',int2str(N_protein),'Proteins'],arr_complex);
 dlmwrite(['intermediateData_K_smallEnzyme_KM078260_',int2str(N_protein),'Proteins'],arr_KM);
-%dlmwrite(['intermediateData_NComplex_largeEnzyme_KM078260_',int2str(N_protein),'Proteins'],arr_complex);
-%dlmwrite(['intermediateData_K_largeEnzyme_KM078260_',int2str(N_protein),'Proteins'],arr_KM);
 end
 
 
 
 % part 2: simulate large ribosome and large tRNA (ribosomal system)
 
-KM0 = 130*602;
+KM0 = 130*602;  % unit: µM
 
 E_r = 10e-9;  % enzyme radius; metric unit
 s_r = 2.4e-9;  % substrate radius; metric unit
