@@ -1,9 +1,14 @@
 # optimalCytosolicDensity_linearModel
-This repository stores the MATLAB source code of the 'linear model' and also the 'parallel model' of the following publication:
+
+**A Model to Investigate the Optimal Cytosolic Density of a Cell**
+
+This repository stores the MATLAB source code of the 'linear model' (and also the 'parallel model'), which investigates how a bacterial cell optimizes its cytosolic density.
 
 Pang, T. Y., & Lercher, M. J. (2020). Optimal density of bacterial cells. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2020.11.18.388744
 
 See Fig. 2 of the manuscript for an illustration of the model.
+
+**Description of the Files**
 
 The three folders correspond to the 3 versions of the model: (1) main model, (2) diffusion limited case, (3) transition state limited case. See Fig. 1 of the manuscript for an explanation to the different limited cases.
 
