@@ -4,6 +4,8 @@
 
 This repository stores the MATLAB source code of the 'linear model' (and also the 'parallel model'), which investigates how a bacterial cell optimizes its cytosolic density.
 
+**Full Documentation of the Model**
+
 Pang, T. Y., & Lercher, M. J. (2020). Optimal density of bacterial cells. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2020.11.18.388744
 
 See Fig. 2 of the manuscript for an illustration of the model.
