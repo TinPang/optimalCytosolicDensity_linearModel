@@ -2,7 +2,7 @@
 
 ## A Model to Investigate the Optimal Cytosolic Density of a Cell
 
-This repository stores the MATLAB source code of the 'linear model' (and also the 'parallel model'), which investigates how a bacterial cell optimizes its cytosolic density.
+This repository stores the MATLAB source code of the `linear model` (and also the `parallel model`), which investigates how a bacterial cell optimizes its cytosolic density.
 
 ## Full Documentation of the Model
 
