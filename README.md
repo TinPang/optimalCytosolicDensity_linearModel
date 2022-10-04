@@ -12,7 +12,7 @@ See Fig. 2 of the manuscript for an illustration of the model.
 
 ## Description of the Files
 
-The three folders correspond to the 3 versions of the model: (1) main model, (2) diffusion limited case, (3) transition state limited case. See Fig. 1 of the manuscript for an explanation to the different limited cases.
+The three folders correspond to the 3 versions of the model: (1) main model, (2) diffusion limited case, (3) transition state limited case. See Fig. 1 of the manuscript for an explanation to the different limited cases. The main model is modified to account for crowding using Vasquez's formulation (model 1a). The parameter θ within the main model is also changed to a different value so as to test the model sensitivity (model 1b).
 
 Each folder has the main script files `script1_simulation.m` and `script2_make_plots.m`. Script 1 performs the simulation and writes the `intermediateData_*` files that store the simulation results. Script 2 reads the `intermediateData_*` files and make the plots (Fig. 2 and Fig. 7 of the manuscript). The other `*.m` files contains functions called by the main scripts.
 
